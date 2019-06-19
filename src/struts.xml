@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="login_6_2" class="org.action.LoginAction_6_2">
+			<result name="success">/addPorder_6_2.jsp</result>
+			<result name="fail">/addMember_6_2.jsp</result>
+		</action>
+		
+		<action name="addMember_6_2" class="org.action.AddMemberAction_6_2">
+			<result name="success">/login_6_2.jsp</result>
+			<result name="fail">/index.jsp</result>
+		</action>
+		
+		<action name="addPorder_6_2" class="org.action.AddPorderAction_6_2">
+			<result name="success">/confirmPorder_6_2.jsp</result>
+			<result name="fail">/login_6_2.jsp</result>
+		</action>
+	</package>
+
+</struts>

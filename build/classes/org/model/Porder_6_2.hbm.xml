@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019/6/2 ?W?? 11:31:19 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.model.Porder_6_2" table="PORDER" catalog="company">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="amount" type="java.lang.Integer">
+            <column name="AMOUNT" />
+        </property>
+        <property name="sum" type="java.lang.Integer">
+            <column name="SUM" />
+        </property>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="product" type="java.lang.String">
+            <column name="PRODUCT" />
+        </property>
+    </class>
+</hibernate-mapping>

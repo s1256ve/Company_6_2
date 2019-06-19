@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.title
+{
+	font-size:30px;
+	color:blue;
+	background-color:yellow;
+	
+
+}
+.content
+{
+	font-size:14px;
+	color:yellow;
+	background-color:gray;
+}
+.end
+{
+	font-size:30px;
+	color:blue;
+	background-color:yellow;
+}
